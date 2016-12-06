@@ -6,7 +6,7 @@ The purpose here was to  write a neural network "from scratch", which is to say 
 
 This nn incorporates most of the features we've dealt with so far in the course (that is, up to somewhere in week 3): cross entropy, L2 regularization, and improved weight initialization.
 
-Note: everything is done in Python 3.X so if you ahven't updated yet, expect some things to break (most obviously, print()). Also, if you're on Python 2.X you'll likely want to look at MNIST-loader.ipynb and pickle your own data.
+Note: everything is done in Python 3.X so if you haven't updated yet, expect some things to break (most obviously, print()). Also, if you're on Python 2.X you'll likely want to look at MNIST-loader.ipynb and pickle your own data.
 
 **MNIST-nn-scipy.ipynb** uses the scipy.optimize L_BFGS optimizer to minimize the cost. This is the kind of method that was deployed in the Coursera course I referenced in the top of the file.
 
